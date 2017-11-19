@@ -45,7 +45,7 @@ document.getElementById("wins").innerHTML = wins;
 
         if (possibleWord === blankSpaces.join('')) {
           setTimeout(function () {
-            alert("Winner Winner Chicken Dinner");
+            alert("Be Our Guest!");
           wins++;
           document.getElementById("wins").innerHTML = wins;
         }, 200);
@@ -56,7 +56,6 @@ document.getElementById("wins").innerHTML = wins;
 document.getElementById("reset").onclick = function() {
   blankSpaces = [];
   document.getElementById("blankSpaces").innerHTML = blankSpaces
-  console.log("working");
   letterGuessed= "";
 document.getElementById("lettersGuessed").innerHTML = letterGuessed;
   generateWord();

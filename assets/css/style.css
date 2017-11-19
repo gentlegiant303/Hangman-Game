@@ -1,14 +1,17 @@
-.letter {
-  display: inline-block;
-  /*opacity:0;*/
-  font-size: 24px;
-  margin: 10px;
-}
-
-.correct {
-  opacity:1;
-}
-
 #blankSpaces {
   font-size:24px;
+}
+
+.Title {
+  background-color: blue;
+  color:yellow;
+}
+
+.wrapper {
+  background-color: darkgray;
+}
+
+.btn.btn-default {
+  margin-top: 10px;
+  margin-right: 5px;
 }
